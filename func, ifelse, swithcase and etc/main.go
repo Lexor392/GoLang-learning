@@ -36,3 +36,10 @@ func switchCase(i int, title string) { /*Функция, в которой ср�
 func add(a, b int) int { /*Функция, в которой суммируется два числа и возвращается через return*/
 	return a + b
 }
+
+type Database struct {
+	wight float32
+	height float32
+	length float32
+}
+

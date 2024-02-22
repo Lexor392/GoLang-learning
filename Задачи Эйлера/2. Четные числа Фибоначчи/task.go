@@ -12,14 +12,7 @@ import "fmt"
 которые не превышают четыре миллиона.
 */
 func main() {
-	fmt.Println("")
 	for i := 0; i <= 100; i++ {
-		fmt.Println(i - 2 + i - 1)
+		fmt.Println((i - 2) + (i - 1))
 	}
-
-	// i := 0
-	// for i <= 100 {
-	// 	fmt.Println(i - 2 + i - 1)
-	// 	i++ 
-	// }
 }
